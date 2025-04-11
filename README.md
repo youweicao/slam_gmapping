@@ -15,3 +15,9 @@ The node slam_gmapping subscribes to sensor_msgs/LaserScan on ros2 topic ``scan`
 It publishes the nav_msgs/OccupancyGrid on ``map``. 
 
 Map Meta Data and Entropy is published on ``map_metadata`` and ``entropy`` respectively.
+
+# Added by forker 1 
+
+Add transform nodes from odom to base_link `0 0 0 0 0 0` and from base_link to velodyne `0 0 0 0 0 0`. Run directly and get map.
+
+Rviz2 add map and point_clouds and TF can show all we need.
